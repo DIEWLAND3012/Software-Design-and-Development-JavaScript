@@ -167,11 +167,21 @@ let person = {
 2. สร้าง Object สำหรับเก็บข้อมูลนักศึกษา  ประกอบด้วยข้อมูล รหัสนักศึกษา, ชื่อ, สาขาวิชา, เกรดเฉลี่ย
 
 ### บันทึกผลการทดลอง 2.1
-```html
-[บันทึกโค้ด ที่นี่]
+```javascript
+[const id = 68030262;
+const name = "Vasin Kaewmoragot";
+let midterm = 80;
+let final = 90;
+
+let person = {
+    id : 68030262,
+    name : "Vasin Kaewmoragot",
+    major : "Computer Technology",
+    GPA : 3.8
+};่]
 ```
 **รูปผลการทดลอง**
-![รูปผลการทดลองที่ 2.1](images/image.png)
+![LAB2.1](LAB2/LAB2.1/LAB2.1-result.png)
 
 
 ### 2.2 การดำเนินการทางคณิตศาสตร์
