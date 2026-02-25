@@ -232,9 +232,26 @@ number /= 2;          // เท่ากับ number = number / 2
 2. เขียนโปรแกรม กำหนดชื่อสินค้า ราคาสินค้า คำนวณราคาสินค้าที่รวม VAT 7% แล้วแสดงผลการคำนวณ
 
 ### บันทึกผลการทดลอง 2.2
-```html
-[บันทึกโค้ด ที่นี่]
+```javascript
+[let math = 67;
+let physics = 78;
+let chemistry = 65;
+
+let average = (math + physics + chemistry) / 3;
+
+console.log("Average points: " + average);]
 ```
+
+```javascript
+let computerPrices = 52000;
+
+let vatCalculation = computerPrices * 0.07;
+let totalPrice = computerPrices + vatCalculation;
+
+console.log("VAT: " + vatCalculation);
+console.log("Total Price: " + totalPrice);
+```
+
 **รูปผลการทดลอง**
 ![รูปผลการทดลองที่ 2.2](images/image.png)
 
